@@ -12,16 +12,37 @@
     <sprite>sprites\spr_floor</sprite>
     <sprite>sprites\spr_player_jump</sprite>
     <sprite>sprites\spr_player_down</sprite>
+    <sprite>sprites\spr_smallfloor</sprite>
+    <sprite>sprites\spr_player_climb</sprite>
+    <sprite>sprites\spr_black</sprite>
+    <sprite>sprites\spr_brick</sprite>
+    <sprite>sprites\spr_ladder</sprite>
+    <sprite>sprites\spr_player_ladder</sprite>
+    <sprite>sprites\spr_monster</sprite>
+    <sprite>sprites\spr_monster1</sprite>
+    <sprite>sprites\sprite15</sprite>
+    <sprite>sprites\spr_boom</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+    <background>background\background1</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\playerstep.gml</script>
+    <script>scripts\playerjumping.gml</script>
     <script>scripts\initive.gml</script>
+    <script>scripts\playerstep.gml</script>
+    <script>scripts\playercollision.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
     <object>objects\obj_floor</object>
+    <object>objects\obj_smallfloor</object>
+    <object>objects\object3</object>
+    <object>objects\obj_ladder</object>
+    <object>objects\obj_monster</object>
+    <object>objects\contro_monster</object>
+    <object>objects\obj_boom</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
